@@ -7,7 +7,7 @@ Get hash of stream.
 ```js
 var fs      = require('fs'),
     ashify  = require('ashify');
-    stream  = fs.createReadFile('README.md'),
+    stream  = fs.createReadStream('README.md'),
     options = {
         algorithm: 'sha1',
         encoding: 'hex'
