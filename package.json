@@ -1,6 +1,6 @@
 {
   "name": "ashify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get hash of stream",
   "main": "lib/ashify.js",
   "scripts": {
