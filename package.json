@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/coderaiser/node-ashify",
   "devDependencies": {
-    "gulp": "~3.8.10",
+    "gulp": "^3.9.0",
     "gulp-mocha": "~2.0.0",
     "should": "~4.3.1"
   }
