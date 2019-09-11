@@ -1,3 +1,16 @@
+2019.09.11, v2.0.0
+
+feature:
+- (ashify) promise
+- (package) mocha v6.2.0
+- (package) nyc v14.1.1
+- (package) nyc v13.1.0
+- (package) mocha v5.0.0
+- (package) mocha v4.0.0
+- (package) should v13.0.1
+- (package) nyc v11.1.0
+
+
 2017.08.31, v1.0.2
 
 fix:
