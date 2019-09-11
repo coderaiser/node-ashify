@@ -4,8 +4,10 @@
   "description": "Get hash of stream",
   "main": "lib/ashify.js",
   "scripts": {
-    "test": "mocha",
-    "coverage": "nyc npm test"
+    "test": "madrun test",
+    "lint": "madrun lint",
+    "fix:lint": "madrun fix:lint",
+    "coverage": "madrun coverage"
   },
   "repository": {
     "type": "git",
@@ -28,7 +30,8 @@
     "mocha": "^6.2.0",
     "nyc": "^14.1.1",
     "putout": "^5.26.0",
-    "should": "^13.0.1"
+    "should": "^13.0.1",
+    "try-to-catch": "^1.1.1"
   },
   "engines": {
     "node": ">=8.3"

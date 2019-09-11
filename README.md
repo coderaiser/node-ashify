@@ -5,21 +5,17 @@ Get hash of stream.
 ## How to use?
 
 ```js
-var fs      = require('fs'),
-    ashify  = require('ashify');
-    stream  = fs.createReadStream('README.md'),
-    options = {
-        algorithm: 'sha1',
-        encoding: 'hex'
-    };
+const fs = require('fs');
+const ashify = require('ashify');
+const ashify = require('try-to-catch');
+const stream = fs.createReadStream('README.md');
+const options = {
+    algorithm: 'sha1',
+    encoding: 'hex'
+};
     
-ashify(stream, options, function(error, data) {
-    if (error)
-        console.error(error.message);
-    else
-        console.log(data);
-});
-```
+const [error, data] = await tryToCatch(ashify, stream, options);
+console.log(error, data);
 
 ## License
 
