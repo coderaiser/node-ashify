@@ -16,6 +16,7 @@ const options = {
     
 const [error, data] = await tryToCatch(ashify, stream, options);
 console.log(error, data);
+```
 
 ## License
 
