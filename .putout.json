@@ -1,0 +1,11 @@
+{
+    "match": {
+        "test": {
+            "remove-unused-variables": ["on", {
+                "exclude": [
+                    "const should = require('should')"
+                ]
+            }]
+        }
+    }
+}
